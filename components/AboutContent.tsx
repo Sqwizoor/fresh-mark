@@ -23,7 +23,7 @@ export default function AboutContent() {
             transition={{ duration: 0.8 }}
           >
             <Image
-              src="/img/about-us-hero.jpg"
+              src="/jj1.jpg"
               alt="Freshmark Foods facility"
               width={600}
               height={400}

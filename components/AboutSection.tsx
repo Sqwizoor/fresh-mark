@@ -21,13 +21,12 @@ export default function AboutSection() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative mx-h-[450px]"
           >
             <Image
-              src="/jj1.jpg"
+              src="/fc.jpg"
               alt="Freshmark Foods facility"
-              width={200}
-              height={300}
+              width={600}
+              height={400}
               className="rounded-lg shadow-lg"
             />
           </motion.div>
