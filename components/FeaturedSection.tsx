@@ -21,8 +21,8 @@ export default function FeaturedSection() {
         </div>
       </div>
       <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="flex flex-col items-center mx-auto px-[2rem]"
           >

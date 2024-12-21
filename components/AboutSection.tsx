@@ -24,7 +24,7 @@ export default function AboutSection() {
             className="relative mx-h-[450px]"
           >
             <Image
-              src="/fc.jpg"
+              src="/jj1.jpg"
               alt="Freshmark Foods facility"
               width={200}
               height={300}
