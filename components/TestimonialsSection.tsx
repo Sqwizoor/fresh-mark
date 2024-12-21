@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: 'Michael B.',
     company: 'Beverage Innovations Ltd.',
-    testimonial: 'I've been a customer for years, and I can confidently say that they are the best in the business.',
+    testimonial: 'Ive been a customer for years, and I can confidently say that they are the best in the business.',
   },
 ]
 
