@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -21,16 +21,15 @@ export default function Footer() {
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h4 className="text-lg font-semibold mb-2">Contact Us</h4>
-            <p>Phone: +27 10 880 3920</p>
+            <p>Phone: +27 10 500 6454</p>
             <p>Email: info@freshmarkfoods.co.za</p>
           </div>
           <div className="w-full md:w-1/4">
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/freshmarkfoods1" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Facebook</a>
-              <a href="https://www.instagram.com/freshmarkfoods2" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Instagram</a>
-              <a href="https://www.linkedin.com/company/freshmarkfoods4" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">LinkedIn</a>
-              <a href="https://twitter.com/freshmarkfoods3" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Twitter</a>
+              <Link href="https://www.instagram.com/freshmarkfoods2/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Instagram</Link>
+              <Link href="https://web.facebook.com/freshmarkfoods1/?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">Facebook</Link>
+              <Link href="https://www.linkedin.com/in/l-mkhize/?originalSubdomain=za" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">LinkedIn</Link>
             </div>
           </div>
         </div>
@@ -40,6 +39,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-

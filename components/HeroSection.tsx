@@ -59,7 +59,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">{slides[currentSlide].headline}</h1>
             <p className="text-xl md:text-2xl mb-8">{slides[currentSlide].subheading}</p>
-            <Link href={slides[currentSlide].cta.link} className="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition duration-300">
+            <Link href={slides[currentSlide].cta.link} className="bg-[#8DC63F] text-white px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition duration-300">
               {slides[currentSlide].cta.text}
             </Link>
           </div>

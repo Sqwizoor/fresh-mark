@@ -8,7 +8,7 @@ export default function WelcomeSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold text-center mb-8"
+          className="text-2xl  text-[#8DC63F]  md:text-4xl font-bold text-center mb-8"
         >
           Welcome to Freshmark Foods
         </motion.h2>
@@ -18,7 +18,7 @@ export default function WelcomeSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg text-center mb-12"
         >
-          At Freshmark Foods, we're passionate about delivering exceptional quality, freshness, and innovation in fruit processing and distribution.
+          At Freshmark Foods, we&apos;re passionate about delivering exceptional quality, freshness, and innovation in fruit processing and distribution.
         </motion.p>
         <div className="grid md:grid-cols-3 gap-8">
           {[

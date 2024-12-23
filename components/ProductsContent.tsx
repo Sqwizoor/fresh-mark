@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const products = [
   {
@@ -56,7 +57,7 @@ export default function ProductsContent() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-bold text-center mb-8"
+          className="text-4xl md:text-5xl font-bold text-center text-[#8DC63F] mb-8"
         >
           Our Products
         </motion.h1>
@@ -89,7 +90,8 @@ export default function ProductsContent() {
                       <li key={i}>{detail}</li>
                     ))}
                   </ul>
-                  <Button>Request Sample</Button>
+                  <Link href="/products">
+                  <Button className="bg-[#8DC63F]"> Learn More </Button></Link>
                 </CardContent>
               </Card>
             </motion.div>
