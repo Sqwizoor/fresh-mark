@@ -19,8 +19,8 @@ export function Navbar() {
         <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center text-sm">
           <div className="flex text-[17px] items-center gap-2 mb-2 lg:mb-0">
             <span className="text-[17px]">Need Help?</span>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="text-[#8DC63F] hover:text-[#7ab32f] transition-colors"
             >
               Contact Us →
@@ -47,47 +47,47 @@ export function Navbar() {
           <div className="flex h-20 items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">
-              <img 
-                src="/logo.png" 
-                alt="Freshmark Foods" 
+              <img
+                src="/logo.png"
+                alt="Freshmark Foods"
                 className="h-14 w-auto"
               />
             </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
-              <Link 
-                href="/" 
+              <Link
+                href="/"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
                 Home
               </Link>
-              <Link 
-                href="/about" 
+              <Link
+                href="/about"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
                 About Us
               </Link>
-              <Link 
-                href="/services" 
+              <Link
+                href="/services"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
                 Services
               </Link>
-              <Link 
-                href="/products" 
+              <Link
+                href="/products"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
                 Products
               </Link>
-              <Link 
-                href="/sustainability" 
+              <Link
+                href="/post"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
-               Sustainability
+              News
               </Link>
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="text-[17px] hover:text-[#8DC63F] transition-colors"
               >
                 Contact Us
@@ -110,38 +110,38 @@ export function Navbar() {
               </SheetTrigger>
               <SheetContent side="right">
                 <nav className="flex flex-col gap-4">
-                  <Link 
-                    href="/" 
+                  <Link
+                    href="/"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
                     Home
                   </Link>
-                  <Link 
-                    href="/about" 
+                  <Link
+                    href="/about"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
                     About Us
                   </Link>
-                  <Link 
-                    href="/services" 
+                  <Link
+                    href="/services"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
                     Services
                   </Link>
-                  <Link 
-                    href="/products" 
+                  <Link
+                    href="/products"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
                     Products
                   </Link>
-                  <Link 
-                    href="/sustainability" 
+                  <Link
+                    href="/post"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
-                   Sustainability
+                    News
                   </Link>
-                  <Link 
-                    href="/contact" 
+                  <Link
+                    href="/contact"
                     className="text-lg font-medium hover:text-[#8DC63F] transition-colors"
                   >
                     Contact Us
