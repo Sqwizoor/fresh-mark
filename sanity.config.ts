@@ -7,9 +7,9 @@ export default defineConfig({
   name: 'default',
   title: 'next-sanity-blog-2024',
 
-  projectId: 'uupoh2nj',
+ projectId: 'uupoh2nj',
   dataset: 'production',
-basePath: '/https://fresh-mark-sqwizoors-projects.vercel.app',
+basePath: '/https://fresh-mark-sqwizoors-projects.vercel.app/studio',
   plugins: [deskTool(), visionTool()],
 
   schema: {
