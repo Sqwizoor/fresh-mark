@@ -3,7 +3,7 @@ import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { urlForImage } from '../../../lib/sanity.image'
 import { notFound } from 'next/navigation'
-import { Navbar } from '@/components/Navbar'
+
 
 async function getPost(slug: string) {
   const post = await client.fetch(`*[_type == "post" && slug.current == $slug][0]{
@@ -26,7 +26,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   return (
     <article className="container mx-auto px-4 py-8 max-w-3xl">
-<Navbar/>
+
 
       <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
       <p className="text-gray-600 mb-4">
