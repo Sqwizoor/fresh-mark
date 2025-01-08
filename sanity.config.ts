@@ -9,7 +9,7 @@ export default defineConfig({
 
   projectId: 'uupoh2nj',
   dataset: 'production',
-
+basePath: '/https://fresh-mark-sqwizoors-projects.vercel.app',
   plugins: [deskTool(), visionTool()],
 
   schema: {
