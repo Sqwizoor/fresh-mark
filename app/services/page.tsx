@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import ServicesContent from '@/components/ServicesContent'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Freshmark Foods Services - Custom Solutions for Your Business',
@@ -10,6 +11,7 @@ export default function ServicesPage() {
   return (
     <main>
       <ServicesContent />
+      <Footer/>
     </main>
   )
 }

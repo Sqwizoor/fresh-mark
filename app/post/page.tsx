@@ -1,4 +1,5 @@
 
+import { Navbar } from '@/components/Navbar'
 import { client } from '../../lib/sanity.client'
 import BlogList from '../components/BlogList'
 
@@ -18,9 +19,9 @@ export default async function Home() {
   const posts = await getPosts()
 
   return (
-    <main className="container mx-auto  mt-[6rem] px-4 py-8">
+    <main className="container mx-auto  mt-[6rem] px-4 ">
     
-      <h1 className="text-4xl font-bold mb-8 text-center">FreshMark News</h1>
+      <h1 className="text-4xl font-bold text-italic pb-7  text-center">FreshMark News</h1>
       <BlogList posts={posts} />
     </main>
   )
