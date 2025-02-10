@@ -8,6 +8,7 @@ import Link from 'next/link'
 import ProductsHero from '@/components/ProductsHero'
 import WhatWeDoSection from './WhatWheDo'
 import Footer from '@/components/Footer'
+import NewsSection from '../post/page'
 
 
 
@@ -51,6 +52,7 @@ export default function ProductsPage() {
       <WhatWeDoSection />
 
       <ProductContent />
+      <NewsSection/>
       <Footer />
     </main>
   )
